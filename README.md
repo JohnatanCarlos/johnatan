@@ -1,1 +1,1 @@
-<img src="./assets/img/portfolio-completo-dark.png">
+<img src="./assets/img/portfolio-v3.png">
