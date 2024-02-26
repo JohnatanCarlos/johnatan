@@ -1,0 +1,17 @@
+:root{
+    /* Cores de Fundo */
+    --color-bg-dark-black: #121212;
+    --color-bg-dark-gray: #232323;
+    --color-bg-light-gray: #545454;
+    --color-bg-ligth-white: #FFFFFF;
+
+    /* Cores Principais */
+    --color-primary: #406370;
+    --color-secondary: #545454;
+
+    /* Cores de Texto */
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #A3A3A3;
+    --color-text-default: #CDCDCD;
+    --color-text-info: #2a7ae4;
+}
