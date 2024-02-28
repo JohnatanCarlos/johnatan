@@ -14,4 +14,25 @@
     --color-text-secondary: #A3A3A3;
     --color-text-default: #CDCDCD;
     --color-text-info: #2a7ae4;
+
+    /* Cores de texto Fixo*/
+    --color-text-primary-fixed: #FFFFFF;
+
+    /* Cores do fundo hover*/
+    --color-action-light-hover: #FFFFFF33;
+    --color-action-dark-hover: #12121233;
+}
+
+.dark-mode {
+    --color-bg-dark-black: #121212;
+    --color-bg-ligth-white: #FFFFFF;
+    --color-text-primary: #FFFFFF;
+    --color-action-light-hover: #FFFFFF33;
+}
+
+.light-mode {
+    --color-bg-dark-black: #FFFFFF;
+    --color-bg-ligth-white: #121212;
+    --color-text-primary: #121212;
+    --color-action-light-hover: #12121233;
 }
