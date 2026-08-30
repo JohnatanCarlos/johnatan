@@ -3,7 +3,7 @@
     --color-bg-dark-black: #121212;
     --color-bg-dark-gray: #232323;
     --color-bg-light-gray: #545454;
-    --color-bg-ligth-white: #FFFFFF;
+    --color-bg-light-white: #FFFFFF;
 
     /* Cores Principais */
     --color-primary: #406370;
@@ -25,14 +25,14 @@
 
 .dark-mode {
     --color-bg-dark-black: #121212;
-    --color-bg-ligth-white: #FFFFFF;
+    --color-bg-light-white: #FFFFFF;
     --color-text-primary: #FFFFFF;
     --color-action-light-hover: #FFFFFF33;
 }
 
 .light-mode {
     --color-bg-dark-black: #FFFFFF;
-    --color-bg-ligth-white: #121212;
+    --color-bg-light-white: #121212;
     --color-text-primary: #121212;
     --color-action-light-hover: #12121233;
 }

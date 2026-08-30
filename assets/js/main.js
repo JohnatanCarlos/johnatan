@@ -17,7 +17,7 @@ function toggleMode() {
 // Typed.js
 new Typed('#typed', {
   strings: [
-    'Sou um <b>Desenvolvedor <b style="color: #2A7AE4">Front-End</b>.',
+    '<b>Desenvolvedor <b style="color: #2A7AE4">Web Full-Stack</b>.',
     'Cada projeto é uma oportunidade <br> de criar algo <b style="color: #2A7AE4">extraordinário</b>.',
     'Desenhando o <b style="color: #2A7AE4">futuro da web</b> <br> com paixão e inovação.'
   ],
