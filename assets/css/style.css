@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
   cursor: pointer;
   appearance: none;
-  background-color: var(--color-bg-ligth-white);
+  background-color: var(--color-bg-light-white);
   -webkit-appearance: none;
   -moz-appearance: none;
   transition: all 0.5s ease-in;
@@ -270,14 +270,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .experience__work-timeline {
-  border-left: 1px solid var(--color-bg-ligth-white);
+  border-left: 1px solid var(--color-bg-light-white);
   position: relative;
   list-style: none;
-}
-
-.experience__work-timeline > li {
-  position: relative;
-  margin-bottom: 3rem;
 }
 
 .experience__work-timeline > li {
@@ -292,7 +287,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .experience__work-timeline > li:after {
-  background-color: var(--color-bg-ligth-white);
+  background-color: var(--color-bg-light-white);
   left: -47px;
   border-radius: 50%;
   height: 14px;
@@ -405,6 +400,34 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   flex-shrink: 0;
 }
+
+.chip-dot--html       { background: #E34F26; }
+.chip-dot--css        { background: #1572B6; }
+.chip-dot--js         { background: #F7DF1E; }
+.chip-dot--ts         { background: #3178C6; }
+.chip-dot--angular    { background: #DD0031; }
+.chip-dot--react      { background: #61DAFB; }
+.chip-dot--micro-fe   { background: #2A7AE4; }
+.chip-dot--primeng    { background: #6366F1; }
+.chip-dot--fluent-ui  { background: #0078D4; }
+.chip-dot--shadcn     { background: #E5E7EB; }
+.chip-dot--tailwind   { background: #06B6D4; }
+.chip-dot--bootstrap  { background: #7952B3; }
+.chip-dot--jest       { background: #C21325; }
+.chip-dot--jasmine    { background: #8A4182; }
+.chip-dot--dotnet     { background: #512BD4; }
+.chip-dot--dotnet-old { background: #68217A; }
+.chip-dot--sql        { background: #CC2927; }
+.chip-dot--rest       { background: #FF6C37; }
+.chip-dot--swagger    { background: #85EA2D; }
+.chip-dot--llm        { background: #8B5CF6; }
+.chip-dot--ai-agent   { background: #F59E0B; }
+.chip-dot--vscode     { background: #007ACC; }
+.chip-dot--terminal   { background: #4CAF50; }
+.chip-dot--git        { background: #F05032; }
+.chip-dot--clean-code { background: #10B981; }
+.chip-dot--review     { background: #6B7280; }
+.chip-dot--ai-dev     { background: #A855F7; }
 
 
 .contact {
