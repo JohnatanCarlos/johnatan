@@ -198,6 +198,11 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
 }
 
+.about-me .about-me__photo img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .svg-botton-about-me {
   float: left;
   bottom: 0;
@@ -339,10 +344,9 @@ body::-webkit-scrollbar-thumb {
 
 .skills__technology-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 18rem;
+  width: 100%;
+  height: 100%;
   border: none;
   border-radius: 10px;
   margin-bottom: 12px;
@@ -352,33 +356,54 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skills__technology-card:hover {
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transform: scale(1.1);
-}
-
-.skills__technology-card-header {
-  padding-top: 1rem;
-}
-
-.skills__technology-card-header > img {
-  margin: 3px;
-  width: 60px;
-  height: 60px;
+  transform: scale(1.02);
 }
 
 .skills__technology-card-content {
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 
 .skills__technology-card-content > p {
-  font-size: 14pt;
+  font-size: 13pt;
   font-weight: 300;
-  text-align: center;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.2rem;
+}
+
+.skills__card-title {
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.tag-bracket {
+  color: var(--color-primary);
+}
+
+.skills__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--color-bg-dark-gray);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 
